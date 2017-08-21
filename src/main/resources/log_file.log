@@ -1,0 +1,46 @@
+2017-08-21 22:23:51 INFO  BaseTest:37 - CASE 2 ____________________________
+2017-08-21 22:23:51 INFO  Utility:21 - Home page
+2017-08-21 22:23:51 INFO  Utility:21 - Book Flight Page
+2017-08-21 22:23:51 INFO  Utility:21 - Fare Page
+2017-08-21 22:23:53 INFO  Utility:21 - from: Munich/ to: Dublin
+2017-08-21 22:23:54 INFO  Utility:21 - addPassenger: Двое взрослых и один ребенок
+2017-08-21 22:23:55 INFO  Utility:21 - next =>
+2017-08-21 22:23:59 INFO  Utility:21 - select flights
+2017-08-21 22:24:09 INFO  Utility:21 - ticketsPrices
+2017-08-21 22:24:09 INFO  Utility:21 - [227.0, 67.0]
+2017-08-21 22:24:14 INFO  Utility:21 - next button =>
+2017-08-21 22:24:18 INFO  Utility:21 - selectFare: 2
+2017-08-21 22:24:23 INFO  Utility:21 - getTotalPrice
+2017-08-21 22:24:24 INFO  Utility:21 - 990.0
+2017-08-21 22:24:41 INFO  BaseTest:37 - CASE 8 ____________________________
+2017-08-21 22:24:41 INFO  Utility:21 - Home page
+2017-08-21 22:24:41 INFO  Utility:21 - Book Flight Page
+2017-08-21 22:24:44 INFO  Utility:21 - from: Dubai/ to: Agadir
+2017-08-21 22:24:45 INFO  Utility:21 - HomePageorg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=60.0.3112.101)
+  (Driver info: chromedriver=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 77 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: '192.168.100.3', ip: '192.168.100.3', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488774 (7e15618d1bf16df8bf0ecf2914ed1964a387ba0b), userDataDir=/var/folders/zq/hjlnhwz9027b1b0s6ysj_f180000gn/T/.org.chromium.Chromium.7U47bT}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: cd03d3e4b4a8fd313270fe8381c2806a
+2017-08-21 22:24:45 INFO  Utility:21 - addPassenger: Двое взрослых и один ребенок
+2017-08-21 22:24:45 INFO  Utility:21 - next =>
+2017-08-21 22:24:48 INFO  Utility:21 - verify Notification
+2017-08-21 22:24:48 INFO  Utility:21 - expected notification: Unfortunately we do not fly from Dubai, United Arab Emirates to Agadir, Morocco. However, we do fly from Dubai, United Arab Emirates to other destinations. Please change your destination and try again.
+2017-08-21 22:24:49 INFO  Utility:21 - result: Unfortunately we do not fly from Dubai, United Arab Emirates to Agadir, Morocco. However, we do fly from Dubai, United Arab Emirates to other destinations. Please change your destination and try again.
+2017-08-21 22:25:01 INFO  BaseTest:37 - CASE 9 ____________________________
+2017-08-21 22:25:01 INFO  Utility:21 - Home page
+2017-08-21 22:25:01 INFO  Utility:21 - Multiple destination Page
+2017-08-21 22:25:04 INFO  Utility:21 - clickMultipleDestinations =>
+2017-08-21 22:25:11 INFO  Utility:21 - multiplePage: putData
+2017-08-21 22:25:15 INFO  Utility:21 - searchButton
+2017-08-21 22:25:15 INFO  Utility:21 - select date
+2017-08-21 22:25:20 INFO  Utility:21 - select flights
+2017-08-21 22:25:31 INFO  Utility:21 - ticketsPrices
+2017-08-21 22:25:31 INFO  Utility:21 - [200.0, 143.0]
+2017-08-21 22:25:31 INFO  Utility:21 - getTotalPrice
+2017-08-21 22:25:33 INFO  Utility:21 - 343.0
+2017-08-21 22:25:33 INFO  Utility:21 - to booking: true
